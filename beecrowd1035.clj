@@ -1,0 +1,6 @@
+(let [a (read)
+    b (read)
+    c(read)
+    d (read)  
+    media(if (and (> b c) (> d a) (> (+ c d) (+ a b)) (> c 0) (> d 0) (= (mod a 2) 0)) "Valores aceitos" "Valores nao aceitos")
+] (println media))
